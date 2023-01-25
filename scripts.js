@@ -19,3 +19,4 @@ function countDownTimer() {
     var timerDiv = document.getElementById("timer");
     timerDiv.innerHTML = "Time remaining: " + hours + " hours and " + seconds + " seconds";
   }
+countDownTimer();
